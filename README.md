@@ -115,8 +115,8 @@ This process scheduler simulates a CPU scheduler that manages process execution 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/priority-srtf-scheduler.git
-cd priority-srtf-scheduler
+git clone https://github.com/korhansevinc/process_scheduler.git
+cd process_scheduler
 ```
 
 ### 2. Compile the Project
@@ -408,22 +408,6 @@ Where:
 3. **Efficient I/O Checking**: O(1) check per waiting process
 4. **Aging Batching**: Updates processed every 1ms, not per microsecond
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Create a Pull Request
-
-### Code Style
-
-- Follow Linux kernel coding style
-- Use descriptive variable names
-- Add comments for complex logic
-- Ensure all code compiles without warnings
 
 ## 📝 License
 
